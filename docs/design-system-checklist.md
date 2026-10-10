@@ -1,0 +1,417 @@
+myAura — Checklist maestro del Design System
+Versión: 0.0.2 · Estado: inventario inicial · Alcance: Landing, USER, ADMIN y CORPORATE.
+Convenciones
+- [ ] Pendiente.
+- [ ] ... — EN DESARROLLO Componente implementado parcialmente o pendiente de revisión.
+- [x] Aprobado tras validar diseño, accesibilidad, responsive y comportamiento.
+- Cada identificador (DS-XXX) es estable: no reutilizarlo si se retira un componente.
+- No todos los ítems necesitan un archivo .tsx: algunos son patrones, variantes o reglas.
+- Para cada componente aprobado, registrar ruta de implementación y fecha en la sección Registro de aprobaciones.
+- Nuevos componentes se incorporarán cuando aparezcan durante el desarrollo de pantallas.
+01. Identidad y fundamentos
+- [ ] DS-001 Logo horizontal, vertical e isotipo — EN DESARROLLO
+- [ ] DS-002 Splash y animación de marca — EN DESARROLLO
+- [ ] DS-003 Paleta semántica de colores — EN DESARROLLO
+- [ ] DS-004 Tipografías y jerarquías — EN DESARROLLO
+- [ ] DS-005 Escala de espaciados — EN DESARROLLO
+- [ ] DS-006 Radios, bordes y sombras — EN DESARROLLO
+- [ ] DS-007 Iconografía Lucide — EN DESARROLLO
+- [ ] DS-008 Modo claro y oscuro
+- [ ] DS-009 Tokens de tamaños y anchos máximos — EN DESARROLLO
+- [ ] DS-010 Estados hover, focus, active y disabled
+- [ ] DS-011 Animaciones y transiciones
+- [ ] DS-012 Reglas de accesibilidad y contraste
+02. Botones y acciones
+- [ ] DS-013 Botón principal — EN DESARROLLO
+- [ ] DS-014 Botón secundario — EN DESARROLLO
+- [ ] DS-015 Botón de contorno — EN DESARROLLO
+- [ ] DS-016 Botón discreto (ghost) — EN DESARROLLO
+- [ ] DS-017 Botón destructivo — EN DESARROLLO
+- [ ] DS-018 Botón deshabilitado — EN DESARROLLO
+- [ ] DS-019 Botón pequeño, mediano y grande
+- [ ] DS-020 Botón con icono
+- [ ] DS-021 Botón solo icono
+- [ ] DS-022 Botón con indicador de carga
+- [ ] DS-023 Botón de ancho completo
+- [ ] DS-024 Botón alto tipo mosaico responsive
+- [ ] DS-025 Botón cuadrado de acción
+- [ ] DS-026 Botón flotante (FAB)
+- [ ] DS-027 Botón dividido con menú
+- [ ] DS-028 Grupo de botones
+- [ ] DS-029 Botón copiar al portapapeles
+- [ ] DS-030 Botón descargar
+- [ ] DS-031 Botón volver / cancelar
+- [ ] DS-032 Botón confirmar con doble validación
+- [ ] DS-033 Botón de acción rápida
+03. Campos y formularios
+- [ ] DS-034 Campo de texto
+- [ ] DS-035 Campo de correo electrónico
+- [ ] DS-036 Campo de contraseña con mostrar/ocultar
+- [ ] DS-037 Campo numérico
+- [ ] DS-038 Campo monetario CLP / otras monedas
+- [ ] DS-039 Campo telefónico internacional
+- [ ] DS-040 Campo URL
+- [ ] DS-041 Campo multilínea (textarea)
+- [ ] DS-042 Selector desplegable
+- [ ] DS-043 Selector con búsqueda
+- [ ] DS-044 Selector múltiple
+- [ ] DS-045 Casilla checkbox
+- [ ] DS-046 Botones radio
+- [ ] DS-047 Interruptor switch
+- [ ] DS-048 Selector segmentado
+- [ ] DS-049 Selector de fecha
+- [ ] DS-050 Selector de hora
+- [ ] DS-051 Selector de rango de fechas
+- [ ] DS-052 Calendario
+- [ ] DS-053 Selector de color
+- [ ] DS-054 Selector de país, región y comuna
+- [ ] DS-055 Autocompletado
+- [ ] DS-056 Campo con prefijo y sufijo
+- [ ] DS-057 Campo con icono
+- [ ] DS-058 Contador de caracteres
+- [ ] DS-059 Validación en tiempo real
+- [ ] DS-060 Mensajes de error y ayuda
+- [ ] DS-061 Campo de solo lectura
+- [ ] DS-062 Formulario de varios pasos
+- [ ] DS-063 Formulario con guardado de borrador
+- [ ] DS-064 Formulario con campos condicionales
+- [ ] DS-065 Editor de texto enriquecido
+04. Navegación y estructura
+- [ ] DS-066 Header público
+- [ ] DS-067 Header autenticado
+- [ ] DS-068 Barra lateral (sidebar)
+- [ ] DS-069 Menú lateral colapsable
+- [ ] DS-070 Menú móvil
+- [ ] DS-071 Navegación inferior móvil
+- [ ] DS-072 Breadcrumbs
+- [ ] DS-073 Pestañas (tabs)
+- [ ] DS-074 Subpestañas
+- [ ] DS-075 Menú desplegable
+- [ ] DS-076 Menú contextual
+- [ ] DS-077 Barra de acciones
+- [ ] DS-078 Pie de página público
+- [ ] DS-079 Pie de página interno
+- [ ] DS-080 Contenedor de página
+- [ ] DS-081 Encabezado de sección
+- [ ] DS-082 Separadores
+- [ ] DS-083 Panel dividido
+- [ ] DS-084 Layout de dos columnas
+- [ ] DS-085 Layout responsive de tarjetas
+- [ ] DS-086 Navegación anterior / siguiente
+- [ ] DS-087 Buscador global
+- [ ] DS-088 Selector de Workspace
+- [ ] DS-089 Selector de cuenta o perfil
+05. Tarjetas, contenedores y visualización
+- [ ] DS-090 Tarjeta básica
+- [ ] DS-091 Tarjeta clicable
+- [ ] DS-092 Tarjeta con imagen
+- [ ] DS-093 Tarjeta de perfil
+- [ ] DS-094 Tarjeta de beneficiario Aura
+- [ ] DS-095 Tarjeta de token
+- [ ] DS-096 Tarjeta de resumen numérico
+- [ ] DS-097 Tarjeta de estadísticas
+- [ ] DS-098 Tarjeta de acción rápida
+- [ ] DS-099 Tarjeta expandible
+- [ ] DS-100 Tarjeta seleccionable
+- [ ] DS-101 Tarjeta de precio o plan
+- [ ] DS-102 Tarjeta de pedido
+- [ ] DS-103 Tarjeta de producto
+- [ ] DS-104 Tarjeta de estado
+- [ ] DS-105 Tarjeta vacía
+- [ ] DS-106 Acordeón
+- [ ] DS-107 Panel colapsable
+- [ ] DS-108 Lista de descripción clave/valor
+- [ ] DS-109 Avatar individual
+- [ ] DS-110 Grupo de avatares
+- [ ] DS-111 Insignias y etiquetas (badges)
+- [ ] DS-112 Chips removibles
+- [ ] DS-113 Tooltip
+- [ ] DS-114 Popover
+- [ ] DS-115 Galería de imágenes
+- [ ] DS-116 Carrusel
+- [ ] DS-117 Vista previa de documento
+- [ ] DS-118 Vista previa de QR
+06. Tablas y gestión de datos
+- [ ] DS-119 Tabla básica
+- [ ] DS-120 Tabla responsive
+- [ ] DS-121 Tabla con ordenamiento
+- [ ] DS-122 Tabla con filtros
+- [ ] DS-123 Tabla con búsqueda
+- [ ] DS-124 Tabla con paginación
+- [ ] DS-125 Tabla con selección múltiple
+- [ ] DS-126 Tabla con acciones por fila
+- [ ] DS-127 Tabla con columnas configurables
+- [ ] DS-128 Tabla con filas expandibles
+- [ ] DS-129 Tabla con edición inline
+- [ ] DS-130 Tabla con celdas de estado
+- [ ] DS-131 Tabla con agrupación
+- [ ] DS-132 Tabla de relaciones
+- [ ] DS-133 Tabla con datos vacíos
+- [ ] DS-134 Vista de lista / cuadrícula
+- [ ] DS-135 Vista de detalle de registro
+- [ ] DS-136 Barra de acciones masivas
+- [ ] DS-137 Exportación CSV / Excel
+- [ ] DS-138 Importación con vista previa
+- [ ] DS-139 Selector de columnas
+- [ ] DS-140 Contador de resultados
+- [ ] DS-141 Historial de cambios por registro
+07. Modales y flujos secundarios
+- [ ] DS-142 Modal informativo
+- [ ] DS-143 Modal de confirmación
+- [ ] DS-144 Modal destructivo
+- [ ] DS-145 Modal con formulario
+- [ ] DS-146 Modal de selección
+- [ ] DS-147 Modal de vista previa
+- [ ] DS-148 Modal de creación rápida
+- [ ] DS-149 Modal anidado controlado
+- [ ] DS-150 Modal para proceso previo sin perder el actual
+- [ ] DS-151 Panel lateral (drawer/sheet)
+- [ ] DS-152 Panel inferior móvil
+- [ ] DS-153 Modal de términos legales
+- [ ] DS-154 Modal de autenticación
+- [ ] DS-155 Modal de carga o procesamiento
+- [ ] DS-156 Modal de resultado exitoso
+- [ ] DS-157 Modal de error recuperable
+- [ ] DS-158 Asistente paso a paso (wizard)
+- [ ] DS-159 Indicador de pasos
+- [ ] DS-160 Confirmación de cambios sin guardar
+08. Mensajes, estados y feedback
+- [ ] DS-161 Toast de éxito
+- [ ] DS-162 Toast de error
+- [ ] DS-163 Toast de advertencia
+- [ ] DS-164 Toast informativo
+- [ ] DS-165 Banner informativo
+- [ ] DS-166 Alerta inline
+- [ ] DS-167 Error de validación
+- [ ] DS-168 Pantalla de carga
+- [ ] DS-169 Skeleton de tarjeta
+- [ ] DS-170 Skeleton de tabla
+- [ ] DS-171 Barra de progreso
+- [ ] DS-172 Progreso circular
+- [ ] DS-173 Indicador de operación en curso
+- [ ] DS-174 Estado vacío
+- [ ] DS-175 Estado sin resultados
+- [ ] DS-176 Estado sin permisos
+- [ ] DS-177 Estado sin conexión
+- [ ] DS-178 Página 404
+- [ ] DS-179 Página de error general
+- [ ] DS-180 Estado de mantenimiento
+- [ ] DS-181 Confirmación de operación
+- [ ] DS-182 Indicador de cambios pendientes
+- [ ] DS-183 Indicador de sincronización
+09. Identidad, acceso y seguridad
+- [ ] DS-184 Formulario de login
+- [ ] DS-185 Formulario de registro
+- [ ] DS-186 Recuperación de contraseña
+- [ ] DS-187 Verificación de correo
+- [ ] DS-188 Ingreso de código OTP
+- [ ] DS-189 Indicador de fortaleza de contraseña
+- [ ] DS-190 Pantalla de sesión vencida
+- [ ] DS-191 Selector de cuenta USER / CORPORATE
+- [ ] DS-192 Perfil de usuario
+- [ ] DS-193 Editor de perfil
+- [ ] DS-194 Selector de permisos
+- [ ] DS-195 Matriz de permisos por dominio
+- [ ] DS-196 Indicador de nivel de acceso
+- [ ] DS-197 Gestión de sesiones
+- [ ] DS-198 Confirmación de acción sensible
+- [ ] DS-199 Vista de actividad de cuenta
+- [ ] DS-200 Panel de consentimiento y privacidad
+10. Aura, beneficiarios y tokens
+- [ ] DS-201 Tarjeta de Aura PERSONA
+- [ ] DS-202 Tarjeta de Aura PET
+- [ ] DS-203 Ficha de beneficiario
+- [ ] DS-204 Editor de información pública/privada
+- [ ] DS-205 Vista de información al escanear
+- [ ] DS-206 Visualizador de QR
+- [ ] DS-207 Escáner QR con cámara
+- [ ] DS-208 Entrada manual de código
+- [ ] DS-209 Estado de token
+- [ ] DS-210 Activación de token
+- [ ] DS-211 Flujo de claim pendiente
+- [ ] DS-212 Asignación de beneficiario
+- [ ] DS-213 Cambio de sponsor
+- [ ] DS-214 Reemplazo de token
+- [ ] DS-215 Reposición física de token
+- [ ] DS-216 Historial de tokens
+- [ ] DS-217 Selector de material y color
+- [ ] DS-218 Vista previa de token físico
+- [ ] DS-219 Selector de Service Level
+- [ ] DS-220 Indicador de License
+- [ ] DS-221 Panel de Lumens disponibles
+- [ ] DS-222 Movimientos de wallet/vault
+- [ ] DS-223 Transferencia de Lumens
+- [ ] DS-224 Indicador de vencimiento
+- [ ] DS-225 Historial de escaneos
+- [ ] DS-226 Panel de visibilidad de datos
+11. Comercio, pagos y promociones
+- [ ] DS-227 Tarjeta de producto
+- [ ] DS-228 Catálogo de productos
+- [ ] DS-229 Selector de variantes
+- [ ] DS-230 Control de cantidad
+- [ ] DS-231 Carrito
+- [ ] DS-232 Resumen de compra
+- [ ] DS-233 Checkout por pasos
+- [ ] DS-234 Selector de método de pago
+- [ ] DS-235 Estado de pago
+- [ ] DS-236 Detalle de transacción
+- [ ] DS-237 Comprobante descargable
+- [ ] DS-238 Historial de compras
+- [ ] DS-239 Ingreso de código promocional
+- [ ] DS-240 Validación de promoción
+- [ ] DS-241 Detalle de promoción aplicada
+- [ ] DS-242 Tarjeta de lote promocional
+- [ ] DS-243 Estado de código promocional
+- [ ] DS-244 Selector de plan o licencia
+- [ ] DS-245 Tabla de precios
+- [ ] DS-246 Resumen de impuestos y totales
+- [ ] DS-247 Confirmación de compra
+12. Producción, inventario y despachos
+- [ ] DS-248 Tarjeta de orden de producción
+- [ ] DS-249 Tabla de lotes de fabricación
+- [ ] DS-250 Indicador de etapa productiva
+- [ ] DS-251 Selector de material
+- [ ] DS-252 Selector de colores
+- [ ] DS-253 Selector de máquina
+- [ ] DS-254 Agrupador de trabajos compatibles
+- [ ] DS-255 Panel de capacidad de producción
+- [ ] DS-256 Vista de prioridades
+- [ ] DS-257 Checklist de fabricación
+- [ ] DS-258 Registro de unidades producidas
+- [ ] DS-259 Control de calidad
+- [ ] DS-260 Indicador de rechazo o merma
+- [ ] DS-261 Tarjeta de pedido de despacho
+- [ ] DS-262 Selector de zona de envío
+- [ ] DS-263 Selector de tarifa paramétrica
+- [ ] DS-264 Creación rápida de zona o precio
+- [ ] DS-265 Asignación de comuna a zona
+- [ ] DS-266 Formulario de dirección
+- [ ] DS-267 Etiqueta de envío
+- [ ] DS-268 Timeline de despacho
+- [ ] DS-269 Indicador de entrega
+- [ ] DS-270 Panel de seguimiento
+- [ ] DS-271 Gestión de devoluciones
+13. Soporte y comunicación
+- [ ] DS-272 Centro de ayuda
+- [ ] DS-273 Buscador de FAQ
+- [ ] DS-274 Tarjeta de FAQ
+- [ ] DS-275 Acordeón de preguntas frecuentes
+- [ ] DS-276 Selector de categoría de soporte
+- [ ] DS-277 Formulario de ticket
+- [ ] DS-278 Selector de topic
+- [ ] DS-279 Asunto editable sugerido
+- [ ] DS-280 Indicador de prioridad
+- [ ] DS-281 Indicador de estado de ticket
+- [ ] DS-282 Conversación tipo hilo
+- [ ] DS-283 Burbuja de mensaje
+- [ ] DS-284 Mensaje interno de administrador
+- [ ] DS-285 Adjunto de mensaje
+- [ ] DS-286 Subida de archivo
+- [ ] DS-287 Vista previa de adjunto
+- [ ] DS-288 Historial de tickets del usuario
+- [ ] DS-289 Indicador de respuesta pendiente
+- [ ] DS-290 Acción cerrar/reabrir ticket
+- [ ] DS-291 Resolución de ticket
+- [ ] DS-292 Centro de notificaciones
+- [ ] DS-293 Contador de mensajes sin leer
+- [ ] DS-294 Preferencias de notificación
+14. Administración, parámetros y auditoría
+- [ ] DS-295 Dashboard administrativo
+- [ ] DS-296 Tarjeta de KPI
+- [ ] DS-297 Filtros globales
+- [ ] DS-298 Gráfico de líneas
+- [ ] DS-299 Gráfico de barras
+- [ ] DS-300 Gráfico circular
+- [ ] DS-301 Gráfico de distribución
+- [ ] DS-302 Gráfico temporal
+- [ ] DS-303 Selector de período
+- [ ] DS-304 Comparación entre períodos
+- [ ] DS-305 Tabla de parámetros
+- [ ] DS-306 Editor de valor paramétrico
+- [ ] DS-307 Selector de referencia paramétrica
+- [ ] DS-308 Creación rápida de parámetro
+- [ ] DS-309 Tabla de usuarios
+- [ ] DS-310 Ficha administrativa de cuenta
+- [ ] DS-311 Gestor de roles y permisos
+- [ ] DS-312 Tabla de auditoría
+- [ ] DS-313 Visor de detalles JSON
+- [ ] DS-314 Comparador antes/después
+- [ ] DS-315 Timeline de eventos
+- [ ] DS-316 Filtros de eventos
+- [ ] DS-317 Registro de intentos fallidos
+- [ ] DS-318 Panel de configuración del sistema
+- [ ] DS-319 Indicador de cambios publicados
+15. Landing, marketing y contenido
+- [ ] DS-320 Hero principal
+- [ ] DS-321 Bloque de propuesta de valor
+- [ ] DS-322 Bloque de características
+- [ ] DS-323 Bloque imagen + texto
+- [ ] DS-324 Sección de funcionamiento por pasos
+- [ ] DS-325 Tarjetas de beneficios
+- [ ] DS-326 Sección de productos
+- [ ] DS-327 Comparador de planes
+- [ ] DS-328 Testimonios
+- [ ] DS-329 Galería de producto
+- [ ] DS-330 Sección de preguntas frecuentes
+- [ ] DS-331 Llamado a la acción (CTA)
+- [ ] DS-332 Formulario de contacto
+- [ ] DS-333 Formulario de newsletter
+- [ ] DS-334 Banner promocional
+- [ ] DS-335 Contador o estadística pública
+- [ ] DS-336 Enlaces a redes sociales
+- [ ] DS-337 Selector de idioma
+- [ ] DS-338 Aviso de cookies
+- [ ] DS-339 Páginas legales
+- [ ] DS-340 Pantalla de bienvenida
+16. Archivos, multimedia y utilidades
+- [ ] DS-341 Subida de archivo
+- [ ] DS-342 Subida por arrastrar y soltar
+- [ ] DS-343 Subida de varias imágenes
+- [ ] DS-344 Recorte de imagen
+- [ ] DS-345 Editor de avatar
+- [ ] DS-346 Compresión y vista previa
+- [ ] DS-347 Visor de PDF
+- [ ] DS-348 Descarga de documento
+- [ ] DS-349 Copiar enlace
+- [ ] DS-350 Compartir contenido
+- [ ] DS-351 Generador de QR descargable
+- [ ] DS-352 Impresión de QR
+- [ ] DS-353 Visor de imagen ampliada
+- [ ] DS-354 Reordenamiento drag-and-drop
+- [ ] DS-355 Selector de icono
+- [ ] DS-356 Selector de emojis
+- [ ] DS-357 Selector de zona horaria
+- [ ] DS-358 Formato de fechas y horas
+- [ ] DS-359 Formato de moneda
+- [ ] DS-360 Indicador de conexión
+- [ ] DS-361 Atajos de teclado
+- [ ] DS-362 Buscador de comandos
+17. Accesibilidad y adaptación responsive
+- [ ] DS-363 Variantes móvil/tablet/escritorio
+- [ ] DS-364 Botones táctiles de tamaño adecuado
+- [ ] DS-365 Navegación completa por teclado
+- [ ] DS-366 Indicadores visibles de foco
+- [ ] DS-367 Mensajes accesibles para lectores de pantalla
+- [ ] DS-368 Contraste de texto y controles
+- [ ] DS-369 Respeto a movimiento reducido
+- [ ] DS-370 Tablas adaptadas a móvil
+- [ ] DS-371 Modales adaptados a móvil
+- [ ] DS-372 Menús accesibles
+- [ ] DS-373 Escala de texto adaptable
+- [ ] DS-374 Estados de error accesibles
+- [ ] DS-375 Pruebas de zoom y orientación
+- [ ] DS-376 Diseño para textos largos
+- [ ] DS-377 Áreas seguras en teléfonos
+- [ ] DS-378 Prevención de desbordamientos horizontales
+Registro de aprobaciones
+ID	Componente o patrón	Ruta de implementación	Fecha de aprobación	Observaciones
+—	Ninguno aprobado formalmente todavía	—	—	Los botones y el splash están implementados, pero falta validación formal del Design System.
+
+
+Criterios mínimos de aprobación
+1. Diseño coherente con la identidad visual de myAura.
+2. Correcto funcionamiento en móvil y escritorio.
+3. Estados de interacción y errores revisados.
+4. Accesibilidad básica verificada (teclado, foco, contraste y etiquetas).
+5. Código reutilizable y ubicación documentada.
+6. Demostración y aprobación visual en /dev/ui-kit cuando corresponda.
