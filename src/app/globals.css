@@ -1,26 +1,132 @@
+
 @import "tailwindcss";
 
+/* AURA DESIGN SYSTEM — COLORES */
+
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Identidad */
+  --aura-primary: #006064;
+  --aura-primary-hover: #004d50;
+  --aura-primary-soft: #e6f2f2;
+
+  /* Texto */
+  --aura-text: #080b0d;
+  --aura-text-secondary: #64748b;
+  --aura-text-inverse: #ffffff;
+
+  /* Superficies */
+  --aura-background: #ffffff;
+  --aura-surface: #f5f7f9;
+  --aura-surface-raised: #ffffff;
+
+  /* Bordes */
+  --aura-border: #e2e8f0;
+
+  /* Estados */
+  --aura-success: #16a34a;
+  --aura-warning: #d97706;
+  --aura-danger: #dc2626;
+  --aura-info: #2563eb;
+
+  /* Medidas */
+  --aura-radius-sm: 6px;
+  --aura-radius-md: 10px;
+  --aura-radius-lg: 16px;
+  --aura-radius-xl: 24px;
+
+  --aura-spacing-unit: 4px;
+  /* Espaciados Aura */
+--aura-space-xs: 4px;
+--aura-space-sm: 8px;
+--aura-space-md: 12px;
+--aura-space-lg: 16px;
+--aura-space-xl: 24px;
+--aura-space-2xl: 32px;
+--aura-space-3xl: 48px;
+
+/* Dimensiones de controles */
+--aura-control-sm: 32px;
+--aura-control-md: 40px;
+--aura-control-lg: 48px;
+
+/* Anchos de contenido */
+--aura-content-sm: 640px;
+--aura-content-md: 960px;
+--aura-content-lg: 1200px;
+
+  /* Tipografía */
+  --aura-font-body: var(--font-geist-sans), Arial, sans-serif;
+  --aura-font-brand: var(--font-nunito), sans-serif;
+  --aura-font-mono: var(--font-geist-mono), monospace;
+
+  /* Escala tipográfica */
+  --aura-text-xs: 0.75rem;
+  --aura-text-sm: 0.875rem;
+  --aura-text-base: 1rem;
+  --aura-text-lg: 1.125rem;
+  --aura-text-xl: 1.375rem;
+  --aura-text-2xl: 1.75rem;
+  --aura-text-3xl: 2.25rem;
 }
+
+/* INTEGRACIÓN CON TAILWIND CSS 4 */
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-primary: var(--aura-primary);
+  --color-primary-hover: var(--aura-primary-hover);
+  --color-primary-soft: var(--aura-primary-soft);
+
+  --color-background: var(--aura-background);
+  --color-surface: var(--aura-surface);
+
+  --color-foreground: var(--aura-text);
+  --color-muted: var(--aura-text-secondary);
+  --color-border: var(--aura-border);
+
+  --color-success: var(--aura-success);
+  --color-warning: var(--aura-warning);
+  --color-danger: var(--aura-danger);
+  --color-info: var(--aura-info);
+
+  --font-sans: var(--aura-font-body);
+  --font-brand: var(--aura-font-brand);
+  --font-mono: var(--aura-font-mono);
+
+  /* Escala tipográfica Aura */
+  --text-xs: var(--aura-text-xs);
+  --text-xs--line-height: 1rem;
+
+  --text-sm: var(--aura-text-sm);
+  --text-sm--line-height: 1.25rem;
+
+  --text-base: var(--aura-text-base);
+  --text-base--line-height: 1.5rem;
+
+  --text-lg: var(--aura-text-lg);
+  --text-lg--line-height: 1.75rem;
+
+  --text-xl: var(--aura-text-xl);
+  --text-xl--line-height: 2rem;
+
+  --text-2xl: var(--aura-text-2xl);
+  --text-2xl--line-height: 2.25rem;
+
+  --text-3xl: var(--aura-text-3xl);
+  --text-3xl--line-height: 2.75rem;
+
+  --radius-sm: var(--aura-radius-sm);
+  --radius-md: var(--aura-radius-md);
+  --radius-lg: var(--aura-radius-lg);
+  --radius-xl: var(--aura-radius-xl);
+
+  /* Unidad base de espaciado Aura */
+--spacing: var(--aura-spacing-unit);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
+/* ESTILOS GENERALES */
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background: var(--aura-background);
+  color: var(--aura-text);
+  font-family: var(--aura-font-body);
 }
